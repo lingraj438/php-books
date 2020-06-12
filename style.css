@@ -1,0 +1,31 @@
+body {
+  padding: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.headbox {
+  padding: 20px 0px;
+}
+.center {
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  justify-self: center;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.contents {
+  display: flex;
+  overflow: hidden;
+  margin-top: 20px;
+  height: 500px;
+  width: 100%;
+  flex-direction: row;
+}
+.tank {
+  overflow: auto;
+  width: 70%;
+}
